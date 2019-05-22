@@ -51,8 +51,8 @@ footer{
     margin-top: 15px;
     background-color: rgb(26, 0, 0);
     color: #fff;
-    position: absolute;
-    bottom: 0px;
+    /* position: absolute;
+    bottom: 0px; */
 }
 footer .container{
     display: flex;

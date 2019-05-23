@@ -56,7 +56,7 @@ nav .container a:hover{
     font-weight: normal;
 }
 .card-header strong{
-    font-size:2.5em;
+    font-size:5em;
 }
 .btn-success{
     border-radius: 50%;
@@ -81,6 +81,40 @@ section article h2{
 }
 section .paragraphe{
     margin: 5px;
+}
+/* bannierebottom */
+#bannierebottom{
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* article */
+article{
+    margin: 35px 0px;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article hr{
+    border: 1px solid rgb(192,192,192);
+    width: 200px;
+}
+article h1{
+    font-style: 1em;
+    font-weight: normal;
+}
+/* ecran */
+#ecran{
+    text-align: center;
+}
+/* tour-all-in-one */
+#tour-all-in-one{
+    text-align: center;
 }
 /* footer */
 footer{
@@ -139,6 +173,9 @@ footer h5{
     }
     section article h2{
         border-bottom: 1px solid #000;
+    }
+    #bannierebottom, .left, .right{
+        display: none;
     }
     /* footer */
     footer{
